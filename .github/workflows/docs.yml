@@ -2,7 +2,7 @@ name: Deploy docs
 on:
   push:
     branches: [main]
-    paths: ["4.4/**", ".github/workflows/docs.yml"]
+    paths: ["4.5/**", ".github/workflows/docs.yml"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 4.4
+        working-directory: 4.5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
