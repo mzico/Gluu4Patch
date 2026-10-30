@@ -1,0 +1,17 @@
+site_name: Gluu4Patch - oxPassport CVE-2026-111497
+site_description: How to patch oxPassport (Node.js Brotli, CVE-2026-111497) on Gluu Cloud Native 4.5.14
+site_url: https://mzico.github.io/Gluu4Patch/
+repo_url: https://github.com/mzico/Gluu4Patch
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.top
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+nav:
+  - Patch guide: index.md
